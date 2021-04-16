@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="com.mycompany.tests.API_Get_Delete_Tests" skipped="0" tests="1" time="5.4" timestamp="2021-04-16 01:59:13"><testcase classname="com.mycompany.tests.API_Get_Delete_Tests" name="Employee end to end test api"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;429&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;429&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;429&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:656)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:125)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:133)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:119)&#13;
+com.mycompany.steps.ApiTestSteps.verifyStatusCodeForSuccess(ApiTestSteps.java:40)&#13;
+com.mycompany.tests.API_Get_Delete_Tests.employeeEndToEndTestApi(API_Get_Delete_Tests.java:21)&#13;
+</system-err></testcase></testsuite>
